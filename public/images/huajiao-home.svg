@@ -1,0 +1,20 @@
+<svg width="120px" height="134px" viewBox="348 221 120 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M396.009817,292 C396.272269,285.328233 401.763897,280 408.5,280 C415.236103,280 420.727731,285.328233 420.990183,292 L421,292 L421,346 L396,346 L396,292 L396.009817,292 Z M408,226.409735 L408.426359,225.965233 L410.230563,227.695796 L459.230563,274.695796 L461.034767,276.426359 L457.573641,280.034767 L455.769437,278.304204 L408,232.48454 L360.230563,278.304204 L358.426359,280.034767 L354.965233,276.426359 L356.769437,274.695796 L405.769437,227.695796 L407.573641,225.965233 L408,226.409735 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Combined-Shape" stroke="none" fill="none">
+        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+        <use stroke="#585050" stroke-width="5" stroke-linecap="square" xlink:href="#path-1"></use>
+    </g>
+</svg>
